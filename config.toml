@@ -1,5 +1,5 @@
 # For deployment on github pages
-baseurl = "http://cwickham.github.io/st537-gallery-sp17/"
+baseurl = ""
 publishDir = "docs"
 
 title = "ST537 Gallery"
