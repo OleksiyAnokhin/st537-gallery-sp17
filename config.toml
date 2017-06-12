@@ -1,6 +1,5 @@
 # For deployment on github pages
-baseurl = ""
-publishDir = "docs"
+baseurl = "www.example.com"
 
 title = "ST537 Gallery"
 theme = "hugo-creative-portfolio-theme"
