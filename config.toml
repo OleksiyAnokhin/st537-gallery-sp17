@@ -1,5 +1,4 @@
-# For deployment on github pages
-baseurl = "www.example.com"
+baseurl = "/"
 
 title = "ST537 Gallery"
 theme = "hugo-creative-portfolio-theme"
