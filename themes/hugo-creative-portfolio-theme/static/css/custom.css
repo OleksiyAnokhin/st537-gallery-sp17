@@ -1,1 +1,23 @@
 /* your styles go here */
+.page-footer-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-footer {
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

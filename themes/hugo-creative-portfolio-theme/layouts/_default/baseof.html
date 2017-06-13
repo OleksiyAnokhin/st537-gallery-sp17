@@ -9,6 +9,12 @@
               {{ block "main" . }}
               {{ end }}
           </div>
+          
+          <div class = "container-fluid page-footer-container">
+            <div class = "page-footer">
+              {{ partial "footer.html" . }}
+            </div>
+          </div>
       </div>
   </div>
   {{ partial "scripts.html" . }}

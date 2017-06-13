@@ -1,0 +1,8 @@
+<div class="copyright">
+  <p class="muted-credit">
+    {{ with .Site.Params.copyright }}
+      {{ . | safeHTML }}
+    {{ end }}
+    {{ partial "attribution.html" . }}
+  </p>
+</div>

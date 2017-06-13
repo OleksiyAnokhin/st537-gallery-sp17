@@ -12,11 +12,12 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
-  description = "A gallery of final project's from Oregon State University's ST 537 Data Visualization class, Spring 2017"
+  style = "blue"
+  description = "A gallery of final projects from Oregon State University's ST 537 Data Visualization class, Spring 2017"
   sidebarAbout = [
-    "Final projects from students in ST537, Spring 2017"
+    "A gallery of final projects from Oregon State University's ST 537 Data Visualization class, Spring 2017"
   ]
+  copyright = 'Website <a href = "https://github.com/cwickham/st537-gallery-sp17">source</a> by <a href = "http://www.cwick.co.nz">Charlotte Wickham</a>'
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -36,5 +37,9 @@ googleAnalytics = ""
   name = "Home"
   url = ""
 
+  [[params.navlinks]]
+  name = "About"
+  url = "about/index.html"
+
   [params.social]
-  github        = "https://github.com/cwickham/st537-gallery-sp17/"
+  
