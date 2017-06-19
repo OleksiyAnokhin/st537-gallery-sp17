@@ -5,7 +5,7 @@ image = "img/portfolio/data-visualization-final-project.png"
 date = "2017-06-16"
 title = "Data Visualization Final Project"
 name = "Anonymous"
-link = ""
+link = "https://andydangosu.shinyapps.io/bike-app/"
 weight = 0
 +++
 
